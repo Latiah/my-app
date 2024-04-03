@@ -17,7 +17,7 @@ return(
         <TouchableOpacity style={styles.btn2}>
             <Text style={styles.buttonText3}>Log in with Google</Text>
         </TouchableOpacity>
-    <Text style={styles.subtitles}>Don't have an account?
+    <Text style={styles.subtitle}>Don't have an account?
      <Text onPress={()=>navigation.navigate("Register")} style={styles.link}>Sign in</Text> </Text>
     </View>    
     )
@@ -49,6 +49,13 @@ return(
     color:"#F9FAFB",
     marginLeft:30,
     marginTop:19,
+    fontSize:14,
+   },
+   subtitle:{
+    color:"#F9FAFB",
+    marginLeft:30,
+    marginTop:19,
+    marginRight:50,
     fontSize:14,
    },
 btn1:{
@@ -99,10 +106,5 @@ resetLink:{
     fontWeight:"bold",
     fontSize:18,
     marginTop:19,
-    right:0, 
-},
-messageLink:{
-    display:"flex",
-    justifyContent:"space-around",
 },
  })

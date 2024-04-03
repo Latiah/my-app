@@ -21,7 +21,7 @@ return(
             <Text style={styles.buttonText3}>Sign in with Google</Text>
         </TouchableOpacity>
    
-            <Text style={styles.subtitles}>Already have an account?
+            <Text style={styles.subtitle}>Already have an account?
         <Text  onPress={()=>navigation.navigate("Log")}style={styles.link}>Log in</Text> </Text>
   </View>    
     )
@@ -52,6 +52,13 @@ return(
     color:"#F9FAFB",
     marginLeft:30,
     marginTop:19,
+    fontSize:14,
+   },
+   subtitle:{
+    color:"#F9FAFB",
+    marginLeft:30,
+    marginTop:19,
+    marginRight:50,
     fontSize:14,
    },
 btn1:{
@@ -96,9 +103,5 @@ link:{
    fontWeight:"bold",
    marginHorizontal:40,
    fontSize:18,
-},
-messageLink:{
-    display:"flex",
-    justifyContent:"space-around",
 },
  })

@@ -44,4 +44,10 @@ const styles=StyleSheet.create({
     marginTop:5,
     fontSize:14,
  },
+ subtitles:{
+    color:"#F9FAFB",
+    marginLeft:30,
+    marginTop:19,
+    fontSize:14,
+   },
     })
