@@ -7,3 +7,7 @@ Sign up page
 Login page
 
 ![Login](assets/login.jpg)
+
+Forgot password page
+
+![Reset](assets/Reset.jpg)
