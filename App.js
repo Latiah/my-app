@@ -13,8 +13,8 @@ export default function App() {
   <NavigationContainer>
     <Stack.Navigator>
     <Stack.Screen name="Register" component={Register} />
-    <Stack.Screen name="Log" component={Loging} />
-    <Stack.Screen name="reset" component={Forgot} />
+    <Stack.Screen name="Login" component={Loging} />
+    <Stack.Screen name="Reset" component={Forgot} />
     </Stack.Navigator>
   </NavigationContainer>
   

@@ -9,7 +9,7 @@ return(
         <TextInput style={styles.textbox} placeholder="enter email"></TextInput>
         <Text style={styles.subtitles}>Password</Text>
         <TextInput style={styles.textbox} placeholder="enter password"></TextInput>
-        <Text onPress={()=>navigation.navigate("reset")} style={styles.resetLink}>Forgot your password?</Text>
+        <Text onPress={()=>navigation.navigate("Reset")} style={styles.resetLink}>Forgot your password?</Text>
         <TouchableOpacity style={styles.btn1}>
             <Text style={styles.buttonText1} >Log in</Text>
         </TouchableOpacity>
@@ -17,8 +17,10 @@ return(
         <TouchableOpacity style={styles.btn2}>
             <Text style={styles.buttonText3}>Log in with Google</Text>
         </TouchableOpacity>
-    <Text style={styles.subtitle}>Don't have an account?
-     <Text onPress={()=>navigation.navigate("Register")} style={styles.link}>Sign in</Text> </Text>
+        <View style={styles.messageLink}>
+    <Text style={styles.subtitle}>Don't have an account?</Text>
+     <Text onPress={()=>navigation.navigate("Register")} style={styles.link}>Sign in</Text> 
+     </View>
     </View>    
     )
     
@@ -99,12 +101,18 @@ link:{
     color:"#1D4ED8",
    fontWeight:"bold",
    fontSize:18,
-   marginLeft:40,
+   marginTop:19,
+   marginRight:40,
+},
+messageLink:{
+    flexDirection:"row",
+    justifyContent:"space-between",
 },
 resetLink:{
     color:"#1D4ED8",
     fontWeight:"bold",
     fontSize:18,
     marginTop:19,
+marginLeft:170,
 },
  })

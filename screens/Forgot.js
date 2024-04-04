@@ -15,7 +15,7 @@ export default function Forgot(){
 }
 const styles=StyleSheet.create({
     container:{
-     flex:1,
+    flex:1,
     backgroundColor:"#111827",
     justifyContent:"center",},
 
@@ -33,7 +33,7 @@ const styles=StyleSheet.create({
         textAlign:"center",
         color:"#F9FAFB",
         borderRadius:15,
-        marginLeft:30,
+        marginLeft:220,
         marginTop:19,
         width:129,
         height:30,
